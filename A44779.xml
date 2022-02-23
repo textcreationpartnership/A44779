@@ -1,0 +1,574 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at the first visitation of the Right Reverend Father in God Ralph, Lord Bishop of Chichester, holden there Septemb. 20th, 1675 by William Howell ...</title>
+            <author>Howell, William, 1631 or 2-1683.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1676</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 57 KB of XML-encoded text transcribed from 19 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A44779</idno>
+            <idno type="STC">Wing H3144</idno>
+            <idno type="STC">ESTC R6553</idno>
+            <idno type="EEBO-CITATION">13506103</idno>
+            <idno type="OCLC">ocm 13506103</idno>
+            <idno type="VID">99798</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A44779)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 99798)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 791:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at the first visitation of the Right Reverend Father in God Ralph, Lord Bishop of Chichester, holden there Septemb. 20th, 1675 by William Howell ...</title>
+                  <author>Howell, William, 1631 or 2-1683.</author>
+               </titleStmt>
+               <extent>[6], 26, [5] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for William Crook ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1676.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Advertisement on p. [1-5] at end.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Brideoake, Ralph, 1613-1678.</term>
+               <term>Howell, William, 1631 or 2-1683.</term>
+               <term>Church of England --  Pastoral letters and charges.</term>
+               <term>Bible. --  N.T. --  Colossians IV, 17 --  Sermons.</term>
+               <term>Visitation sermons.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-03</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2009-03</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:99798:1"/>
+            <p>A SERMON Preached at the Firſt VISITATION OF THE Right Reverend FATHER in God, RALPH Lord BISHOP of CHICHESTER, Holden there <hi>Septemb.</hi> 20<hi rend="sup">th</hi>. 1675.</p>
+            <p>BY WILLIAM HOWELL, Vicar of <hi>Fittleworth</hi> in <hi>Suſſex.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>William Crook</hi> at the <hi>Green Dragon</hi> without <hi>Temple-Barre,</hi> 1676.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:99798:2" rendition="simple:additions"/>
+            <pb facs="tcp:99798:2"/>
+            <head>TO The Right Reverend Father in God, RALPH Lord BISHOP of <hi>Chicheſter.</hi>
+            </head>
+            <opener>
+               <salute>Right Reverend Father in God,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">W</seg>Ere not the eyes of the World dazled with the Tinſel of its one vanity, it would certainly diſcern Reaſon to be far from caſting contempt upon the Clergie, eſpecially upon thoſe of it that <hi>labour in the Word and Doctrine,</hi> but rather to <hi>eſteem them very highly in love for their work ſake;</hi> becauſe the deſign of it is, not more to promote the glory of God, than the good of Men, in any or all their capacities, and that in this World as well as that which is to come;<note place="margin">1 Tim. 1.3.</note> 
+               <hi>for the end of the Com<g ref="char:EOLhyphen"/>mandment is charity;</hi> and Charity (as <hi>Johannes Climacus</hi> hath well deſcribed it) <hi>is the reſem<g ref="char:EOLhyphen"/>blance of God, the fountain of faith and vera<g ref="char:EOLhyphen"/>city,
+<pb facs="tcp:99798:3"/>
+the depth of equity and meekneſs,</hi>
+               <note place="margin">Scal. parad. grad. 30.</note> 
+               <hi>the ocean of Humility and the abdication of every averſe thought.</hi> If then men were duely wrought upon and transformed by the Goſpel, what manner of perſons would they be? how delightful and profi<g ref="char:EOLhyphen"/>table both to themſelves and others, how quiet and peaceable, as well as pure and holy would their lives be, in all godlineſs and honeſty? yet the Age we live in is thought ſo degenerate, as that that of the Poet,</p>
+            <p>
+               <note place="margin">Ovid.</note>
+               <hi>Aut petis, aut urges ruiturum Siſyphe ſaxum,</hi> is moſt frequently too applicable to each of us in our attempts to make it better; inſomuch that if in this life only we had hope, we were of all men moſt unhappy, becauſe moſt improſperous and un<g ref="char:EOLhyphen"/>ſucceſsful in the work of our calling. Yet the dread<g ref="char:EOLhyphen"/>ful bonds of our Office oblige us to continue in it, and if <hi>in meekneſs we inſtruct thoſe that oppoſe themſelves,</hi> we have the incouragement not only of ſtrong confidence that we ſhall deliver our own Souls, but alſo of a <hi>peradventure God will give them repentance to the acknowledging of the Truth.</hi> Having therefore received your Lordſhips command to preach at the Viſitation, I thought it my duty rather to run the hazard of being thought pragmatical, than to trifle away an opportunity of doing good, by being impertinent: hereupon I took
+<pb facs="tcp:99798:3"/>
+the boldneſs to endeavour a deſcription of <hi>Archip<g ref="char:EOLhyphen"/>pus</hi> his Miniſtery, duty and obligations to perform it, that ſeeing we alſo have the ſame Miniſtery, <hi>our minds might be ſtirred up by way of remem<g ref="char:EOLhyphen"/>brance, that we faint not, but by manifeſtation of the truth, commend our ſelves to every mans conſcience in the ſight of God;</hi> the deſign I am ſure was ſo good, as that if I could perſwade my ſelf to believe I had well managed it, I ſhould readily ſubſcribe to your Lordſhips judgment, that the Sermon <hi>is fitting to be ſeen;</hi> but whether it be or no, it was your Lordſhips pleaſure (and that in the audience of the Clergie there preſent) to com<g ref="char:EOLhyphen"/>mand me either to Print it my ſelf, or to deliver it to your Lordſhip, that ſo it might be committed to the Preſs. I humbly acknowledg the greatneſs of your Lordſhips favour in conferring the Honour of ſuch a Command upon me; yet I cannot obey it without reluctance, becauſe (though I ſhould belye my ſelf, if I ſhould ſay, I thought my diſcourſe al<g ref="char:EOLhyphen"/>together uſeleſs, yet) I cannot judge it worthy of a publick View. But ſince your Lordſhip was plea<g ref="char:EOLhyphen"/>ſed, before a cloud of witneſſes, to command its be<g ref="char:EOLhyphen"/>ing expoſed thereunto, I dare not diſobey, leſt I ſhould add a kind of ſcandal to diſobedience, the co<g ref="char:EOLhyphen"/>hibition of your Lordſhips command: I cannot re<g ref="char:EOLhyphen"/>queſt without the rudeneſs of offering to derive on
+<pb facs="tcp:99798:4"/>
+your Lordſhip the imputations of raſhneſs or levi<g ref="char:EOLhyphen"/>ty: the performance of it I cannot omit, without expoſing my ſelf to the Animadverſions of my Bre<g ref="char:EOLhyphen"/>thren for diſobedience to my moſt reverend Dioce<g ref="char:EOLhyphen"/>ſan: I muſt therefore beg of your Lordſhip to al<g ref="char:EOLhyphen"/>low this weak diſcourſe the benefit and favour, which nature affords its tender off-ſpring, and that is to take Shelter under your Lordſhips Patro<g ref="char:EOLhyphen"/>nage, as that doth under the Protection of thoſe, from whom it draws (as this from your Lordſhips command) its breath and being. If this be granted, although perhaps it will not ſtop the cenſures of the Supercilious, yet it will take out their ſting, and make them harmleſs to</p>
+            <closer>
+               <signed>
+                  <hi>Your Lordſhips moſt obliged in all duty and humble obſervance,</hi> William Howell.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:99798:4"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>COLOSS. Chap. IV. verſ. 17.</hi>
+                  </bibl>
+                  <p>And ſay to <hi>Archippus,</hi> Take heed to the Miniſtery, which thou haſt received in the Lord, that thou ful<g ref="char:EOLhyphen"/>fill it.</p>
+               </q>
+            </epigraph>
+            <p>
+               <hi>
+                  <seg rend="decorInit">E</seg>PIC<g ref="char:V">Ʋ</g>R<g ref="char:V">Ʋ</g>S</hi> his <hi>Dogma (That the bleſſed and immor<g ref="char:EOLhyphen"/>tal Being hath no affairs of its own, nor doth it inter<g ref="char:EOLhyphen"/>meddle with thoſe of others)</hi> is ſo precarious an <hi>Hypothe<g ref="char:EOLhyphen"/>ſis,</hi>
+               <note place="margin">Diog. Laert. lib. 10.</note> as that the very being of the Miniſtery (were there no other Arguments) would be ſufficient to refute it; for it ſeems founded in the Law of our Nature, whence elſe is it, that it is almoſt as eaſie to find a Nation with<g ref="char:EOLhyphen"/>out Soules, as without any Religion of one kind or other? and almoſt as eaſie it is to find a Religion without reference to God, as one without ſome pretenders to Authority to un<g ref="char:EOLhyphen"/>dertake its defence and adminiſtration. The Gentiles had their <hi>Vates</hi> and <hi>Sacerdotes,</hi> as well as the Jews their <hi>Prophets, Prieſts</hi> and <hi>Levites,</hi> and
+<pb n="2" facs="tcp:99798:5"/>
+the Chriſtians their <hi>Paſtours and Teachers for the Work of the Miniſtery.</hi> It ſeems then (unleſs the ſeat of the Scornful be an infallible Chair) either <hi>Epi<g ref="char:EOLhyphen"/>curus</hi> herein was not wiſe, or elſe all men beſide him were deluded Fools: for hereby it is plain, that they thought the bleſſed and immortal Being did ſo far intermeddle with the affairs of men, as to appoint ſome to be the Salt of the Earth, to purge out the feculence and dregs of Ignorance and Atheiſm, to ſeaſon mens Souls, and make them ſavoury and grateful to God, or at leaſt to keep them from the corruption and putrefaction of infi<g ref="char:EOLhyphen"/>delity and irreligion.</p>
+            <p>Now that this Salt ſhould not loſe its ſavour is, I conceive, the chief deſign of this days Work; in ſubſervience hereunto I have made choice of theſe words. I hope none here preſent will thence take occaſion of thinking, that I take upon me to cenſure my Brethren, as ſome ſay Saint <hi>Paul</hi> did <hi>Archippus,</hi> viz. That he was remiſs and negligent in the work of his Miniſtery: but there is no ne<g ref="char:EOLhyphen"/>ceſſity of ſo thinking, nor indeed any good rea<g ref="char:EOLhyphen"/>ſon for it; for ſince Saint <hi>Paul</hi> did <hi>Archippus</hi> the honour to call him his <hi>Fellow-Souldier,</hi>
+               <note place="margin">Phil. 2.</note> it is very unlikely that <hi>Archippus</hi> wanted either vigilance or courage in uſing the Weapons of his Warfare. To me therefore it ſeems much more probable, that the ſtrength and ſubtilty of the Enemy, the pre<g ref="char:EOLhyphen"/>valence of Error and Hereſie, of Vice and Wick<g ref="char:EOLhyphen"/>edneſs was then the occaſion of Saint <hi>Paul</hi>'s ſend<g ref="char:EOLhyphen"/>ing, as it is now of my chuſing this Text, which of it ſelf falls into three parts, <hi>viz.</hi>
+            </p>
+            <list>
+               <pb n="3" facs="tcp:99798:5"/>
+               <item>1. <hi>Saint</hi> Paul's <hi>Charge.</hi>
+               </item>
+               <item>2. Archippus <hi>his Duty.</hi>
+               </item>
+               <item>3. <hi>The reaſon of it.</hi>
+               </item>
+            </list>
+            <p>I begin with Saint <hi>Paul</hi>'s charge, <hi>And ſay to Ar<g ref="char:EOLhyphen"/>chippus:</hi> but who muſt ſay to <hi>Archippus?</hi> the <hi>Co<g ref="char:EOLhyphen"/>loſſians:</hi> but had they power to admoniſh their Miniſter? Yes, ſaith <hi>Calvin,</hi> Saint <hi>Paul might have admoniſhed him in his own private name, but he en<g ref="char:EOLhyphen"/>joyns this on the</hi> Coloſſians, <hi>that they might know, that they alſo ought to give incitement to their Pa<g ref="char:EOLhyphen"/>ſtour, if they ſee him cold; and the Paſtour ſhould not refuſe admonition from the Church.</hi>
+               <note place="margin">In Loc.</note> But what ad<g ref="char:EOLhyphen"/>monition muſt he ſubmit unto? take an Anſwer from <hi>Pareus,</hi> who (among other <hi>poriſmata</hi>) draws theſe two from theſe words:</p>
+            <p n="1">1. <hi>The Church hath right to admoniſh, or alſo to reprove and depoſe its Miniſter, that keeps not within the bounds of his Office, either by neglecting it, or not rightly performing it.</hi>
+            </p>
+            <p n="2">2. <hi>The Paſtour ought to ſubmit himſelf to the ma<g ref="char:EOLhyphen"/>ture judgement of the Church, and humbly acknow<g ref="char:EOLhyphen"/>ledge from whom he hath received his Office.</hi>
+            </p>
+            <p>But I pray what Church is this, whereunto the Paſtour muſt ſubmit himſelf and make his humble acknowledgements? why here we are left to gueſs; only our Author tells us, <hi>A ſmall Aſſembly deſerves the name of a Church.</hi> Had he thought fit to have ſpoken plainly, 'tis manifeſtly moſt likely he would have ſaid, that by the Church he underſtood a <hi>Presbyterian Conſiſtory:</hi> for this Church (whatever
+<pb n="4" facs="tcp:99798:6"/>
+it be in it ſelf) muſt needs have the government on its ſhoulder, and in contradiſtinction to its Pa<g ref="char:EOLhyphen"/>ſtour, it muſt needs conſiſt either of the Laity or inferiour Officers, or joyntly of both. To theſe then it is, that they aſcribe right to admoniſh, re<g ref="char:EOLhyphen"/>prove and depoſe their Paſtour. But ſurely Saint <hi>Paul</hi> hath taught them no ſuch thing; for not only the Examination and Ordination, but alſo the Admonition, Suſpenſion and Depoſition of Miniſters, he hath reſerved (as appears very fully by his Epiſtles to <hi>Timothy</hi> and <hi>Titus</hi>) to ſuch as they were, <hi>i. e.</hi> to Biſhops. Thus ſurely the Pri<g ref="char:EOLhyphen"/>mitive Church underſtood him, for not only by divers of thoſe Canons,<note place="margin">Can. 32, 37, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>4. Conc. Nic. Can. 5. Conc. Conſt. Can. 6. Conc. Epheſ Can. 5. Conc. Cha<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>c. Can. 8, 9.</note> which are ſaid to be the Apoſtles, but alſo by the Fifth Canon of the Firſt, the Sixth of the Second, the Fifth of the Third, the Eighth and the Ninth of the Fourth general Council, all the Cenſures of the Church, or the exerciſe of Eccleſiaſtical Diſcipline was put into the hands of the Biſhops. In matters Eccleſiaſtical no Lay-men (except the Emperour) were to judge the Clergy; all others were allowed only to be Witneſſes againſt them, nor were they al<g ref="char:EOLhyphen"/>lowed that neither, while they were under ſen<g ref="char:EOLhyphen"/>tence of Excommunication, or the imputation of Hereſie,<note place="margin">Conc. Con<g ref="char:EOLhyphen"/>ſtant. Can 6.</note> Schiſme, or any other grievous crime. But in caſe any thing were objected by credible perſons againſt any Clergy-man under the Order of a Biſhop, the Biſhop of the Dioceſs was to judge of it, and inflict puniſhment for it; but in caſe the party accuſed did not acquieſce in the Cenſure of his Dioceſan, there was liberty of Ap<g ref="char:EOLhyphen"/>peal
+<pb n="5" facs="tcp:99798:6"/>
+to a Provincial Synod, <hi>i. e.</hi> to a Synod where<g ref="char:EOLhyphen"/>in all the Biſhops of the Province were to be ga<g ref="char:EOLhyphen"/>thered together for the examination and deciſion of ſuch Controverſies; which Provincial Synod, the firſt Council of <hi>Nice</hi> appointed to be held twice in a year.<note place="margin">Can. 5.</note> Although afterwards by reaſon of the incurſions of barbarous Nations, and o<g ref="char:EOLhyphen"/>ther cauſes incident, theſe Synods were held but once in the year; yet from that time till the year 1541. or thereabouts,<note place="margin">Concil. in Trullo can. 8.</note> when <hi>Calvin</hi>'s platform firſt drew breath at <hi>Geneva,</hi> I cannot finde it was ever appointed that Miniſters (for matters appertaining to their Office) ſhould be admo<g ref="char:EOLhyphen"/>niſhed, much leſs depoſed by the Laity, or the Clergy (in their own Churches) inferiour to them. If then that had been the Diſcipline appointed by Chriſt, and here required by Saint <hi>Paul,</hi> how wonderful a thing is it, that the Church ſo ſoon after their departure out of the World, ſhould change it for another? Very ſtrange and almoſt impoſſible it is, that the whole Church of Chriſt for above a thouſand years together ſhould either wholly forget my Text, or elſe be igno<g ref="char:EOLhyphen"/>rant of its meaning, or ſo petulantly wicked as to ſuppreſs and act contrary to it; yet ſo it ſeems it was, till the World was bleſſed with ſuch Com<g ref="char:EOLhyphen"/>ments as thoſe before mentioned; whereby the people may underſtand their priviledge to teach and admoniſh their Teachers, and to contend with Gods Miniſters in matters too high for their capacities. But we have not ſo learned to expound the holy Scripture.</p>
+            <p>
+               <pb n="6" facs="tcp:99798:7"/>Obſerve therefore, that this Charge of Saint <hi>Paul</hi> concerning <hi>Archippus</hi> is uſhered in with the copulative Conjunction <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>and,</hi> which I think is ſeldom or never ſo uſed, as to joyn Words and Sentences together which have no connection in Nature or Signification: if ſo, then thence it may probably be conjectured, that the Charge in this Verſe is connected in its kind or nature, as well as ſcituation, with that that we find immediatly fore<g ref="char:EOLhyphen"/>going: and what is that? why it is another charge that Saint <hi>Paul</hi> gives concerning this Epiſtle now written, and another (whatever it was) from <hi>Lao<g ref="char:EOLhyphen"/>dicea,</hi> that this ſhould be read in the Church of the <hi>Laodiceans,</hi> and that that ſhould be read in the Church of the <hi>Coloſſians.</hi> The deſigned end of this Charge manifeſtly is to uphold Communi<g ref="char:EOLhyphen"/>on between theſe two Churches, that they might edifie each other in love. Saint <hi>Chryſoſtome</hi> there<g ref="char:EOLhyphen"/>fore bids his Reader <hi>ſee how he glues and joyns them together,</hi>
+               <note place="margin">In ver. 16.</note> 
+               <hi>not only by ſalutations, but alſo by the mutual exhibition of Epiſtles: this he does not do raſh<g ref="char:EOLhyphen"/>ly, but that he might draw others to the study of the ſame things.</hi> Hereunto the conjunction <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> connects the charge in my Text: think ye then that this hath no affinity with that? That that ſhould tend to the ſweet and pleaſant imploy of promoting Charity and Communion, but this to the ſowr ungrateful work of admonition; which (we know) from in<g ref="char:EOLhyphen"/>feriours is for the moſt part more apt to engender anger than to produce amendment; that St. <hi>Paul</hi> ſhould require the <hi>Coloſſians</hi> to hold Communion
+<pb n="7" facs="tcp:99798:7"/>
+with the <hi>Laodiceans,</hi> their fellow-Chriſtians ſome<g ref="char:EOLhyphen"/>what remote from them; and then in the very next line charge them to admoniſh, yea, it may be, chide with and depoſe <hi>Archippus</hi> their Miniſter, that la<g ref="char:EOLhyphen"/>boured or at leaſt lived among them; how unlike<g ref="char:EOLhyphen"/>ly a thing is it, that he ſhould couple ſuch charges together! No ſaith St. <hi>Chryſoſtom, it was unreaſona<g ref="char:EOLhyphen"/>ble to appoint the diſciples to admoniſh their Teacher.</hi> When <hi>Solomon</hi> charged his Son <hi>to ſay unto</hi> Wiſdom,<note place="margin">Prov. 7.4.</note> 
+               <hi>Thou art my Siſter;</hi> did he thereby conſtitute his Son to be wiſdoms Monitor? No ſurely, he only en<g ref="char:EOLhyphen"/>joyned him to love and adhere to her, to be ruled &amp; guided by her: ſo here when St. <hi>Paul</hi> charges the <hi>Coloſſians</hi> to ſay to <hi>Archippus,</hi> he means not to make them his Monitors, but oblige them to be his follow<g ref="char:EOLhyphen"/>ers: <hi>He eſpecially ſubjects them to him, for they could no longer complain of him for ſeverity to them, when they themſelves had given up themſelves in all things unto him; to ſtop their mouths he writes theſe things unto them,</hi>
+               <note place="margin">in ver. 17.</note> ſaith St. <hi>Chryſoſtom.</hi> Hereby then it ſeems, that the end and deſign of this charge was, not that the <hi>Co<g ref="char:EOLhyphen"/>loſſians</hi> might admoniſh <hi>Archippus,</hi> but that they ſhould declare their good affection, ſubmit them<g ref="char:EOLhyphen"/>ſelves unto, and unanimouſly hold communion with him in the exerciſe of his miniſtry among them.</p>
+            <p>And this at that time was an office of Charity ve<g ref="char:EOLhyphen"/>ry decent and ſeaſonable for St. <hi>Paul</hi> to enjoyn, and for the <hi>Coloſſians</hi> to perform, as well as for <hi>Ar<g ref="char:EOLhyphen"/>chippus</hi> to receive from them; for it was the readieſt
+<pb n="8" facs="tcp:99798:8"/>
+way that could be to extirpate the ſeeds of Hereſie and Schiſm that were ſown among them, and to make them keep the unity of the ſpirit in the bond of Peace.</p>
+            <p>And for this cauſe in this ſenſe, it would be nei<g ref="char:EOLhyphen"/>ther ungrateful to us, nor unſeaſonable for our Congregations reſpectively to ſay to us, as the <hi>Co<g ref="char:EOLhyphen"/>loſſians</hi> to <hi>Archippus:</hi> but alas ſuch is the Atheiſm and profaneſs or elſe the factious humor of our age, as that moſt men are now more apt either to caſt off all reſpect and reverence to their authorized Teachers, or elſe to ſay to the little foxes, that ſpoil our vines, rather than to us, <hi>Take heed to the Mini<g ref="char:EOLhyphen"/>ſtery which you have received in the Lord that you fulfil it.</hi> And this leads me to</p>
+            <p>The Second part of my Text, viz. <hi>Archippus</hi> his duty, <hi>Take heed to the Miniſtery, that thou fulfill it.</hi> In which words we muſt conſider two things, <hi>viz.</hi> Firſt his Miniſtery, and then his Duty. As for <hi>Archippus</hi> his Miniſtery, it is not very eaſie to deter<g ref="char:EOLhyphen"/>mine what it was among the <hi>Coloſſians:</hi> becauſe S. <hi>Paul</hi> uſeth the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">Rom. 11.13:</note> ſome think he was but a Deacon; but this is ſo ſlender and inconcluſive an argument, as that they may as well ſay, He was an Apoſtle, becauſe St. <hi>Paul</hi> calls his own office by that name. Others (becauſe it ſeems St. <hi>Am<g ref="char:EOLhyphen"/>broſe</hi> ſaith ſo) think he was Biſhop of <hi>Coloſs;</hi> but this cannot well be granted neither, for it is more probably thought, that at that time, not
+<pb n="9" facs="tcp:99798:8"/>
+               <hi>Archippus</hi> but <hi>Epaphras</hi> was Biſhop in that City. St. <hi>Paul</hi> himſelf hath laid the foundation of this con<g ref="char:EOLhyphen"/>jecture, for he calls <hi>Epaphras</hi> his <hi>dear fellow-ſervant,</hi>
+               <note place="margin">Cap. 1 7.</note> and tells the <hi>Coloſſians, He is for them a faithful Mi<g ref="char:EOLhyphen"/>nister of Christ,</hi> whereby it is plain, He was not an Evangeliſt only in planting the Goſpel, but that he was a ſettled Miniſter, or at leaſt deſigned ſo to be among them; and ſince he was St. <hi>Paul</hi>'s <hi>dear fel<g ref="char:EOLhyphen"/>low-ſervant,</hi> it is probable he was advanced above the inferiour ſort of the Clergy, even to the A<g ref="char:EOLhyphen"/>poſtolical Dignity;<note place="margin">Hom. ult. in Col.</note> for ſo Saint <hi>Chryſoſtome</hi> ſaith of him. But this could not be but by the com<g ref="char:EOLhyphen"/>munication of the ordinary part of the Apoſto<g ref="char:EOLhyphen"/>lical Office unto him, which was not to convert Infidels, but to teach and govern thoſe that were converted to the Faith. This was and ſtill is the Office of a Biſhop. Thence I conceive it was, that the Primitive Biſhops (becauſe of their par<g ref="char:EOLhyphen"/>ticipation of the Apoſtolical Office) were ſome<g ref="char:EOLhyphen"/>times called Apoſtles; thus <hi>Epaphroditus</hi> was the Apoſtle of the <hi>Philippians, Titus</hi> of the <hi>Cretians,</hi> and <hi>Timothy</hi> of the <hi>Aſiatick Chriſtians;</hi>
+               <note place="margin">Apud Ham<g ref="char:EOLhyphen"/>mond. diſſert. 4. c. 3. ſect. 24. p. 186.</note> (as <hi>The<g ref="char:EOLhyphen"/>odoret</hi> it ſeems teſtifies very fully.) And thus 'tis like that <hi>Epaphras</hi> was the Apoſtle, <hi>i. e.</hi> the Bi<g ref="char:EOLhyphen"/>ſhop of the <hi>Coloſſians;</hi> and ſo I find by <hi>Baronius,</hi> that ſome ancient Martyrologies ſay expreſly,<note place="margin">Ad an. Ch. 60.</note> that he was: and if ſo (becauſe it was inconſi<g ref="char:EOLhyphen"/>ſtent with the Primitive Conſtitutions, that there ſhould be more than one Biſhop in one City) it muſt be concluded, that <hi>Archippus</hi> his Miniſtery was but the Office of a Prieſt or Presbyter: yet
+<pb n="10" facs="tcp:99798:9"/>
+at that time, his Duty, I think, was ſomewhat enlarged; the Cure he had to ſupply, the Work he had to do was ſomewhat greater than ordina<g ref="char:EOLhyphen"/>ry. That you may perceive the reaſon both of Saint <hi>Paul</hi>'s charge, and of this mine opinon, pray be pleaſed to obſerve,</p>
+            <p>That in thoſe places where the Apoſtles con<g ref="char:EOLhyphen"/>ſtituted Biſhops, the whole work of the Miniſte<g ref="char:EOLhyphen"/>ry was devolved upon them and their reſpective Deacons. Thence peradventure it was that <hi>Aeri<g ref="char:EOLhyphen"/>us</hi> took occaſion to ſay, <hi>That a Biſhop and a Preſ<g ref="char:EOLhyphen"/>byter are the ſame.</hi> But <hi>Epiphanius</hi> takes him up very ſharply, and tells him, <hi>That being ignorant of the conſequence of Truth, and having not read the profoundeſt Hiſtories, he had not known, that when the Goſpel had been preached but a little while, the holy Apoſtle wrote as occaſion required: where there were Biſhops then conſtituted, he wrote to the Biſhops and Deacons,</hi> and it may be to others elſe<g ref="char:EOLhyphen"/>where: <hi>For</hi> (ſaith he) <hi>the Apoſtles could not pre<g ref="char:EOLhyphen"/>ſently conſtitute and ſettle all things on a ſudden, for there was need of Presbyters and Deacons, that by theſe two the Eccleſiaſtical Orders might be com<g ref="char:EOLhyphen"/>pleat: but where there was no perſon found fitting for the Epiſcopal Office, there the place remained without a Biſhop; but where there was need, and there were ſome worthy of that Office, there were Biſhops conſtituted: but while Believers were but few in number, there were no Prieſts or Presbyters found among them; they were content with only a Biſhop
+<pb n="11" facs="tcp:99798:9"/>
+in the place, but without a Deacon a Biſhop could not well be; the holy Apoſtle therefore took care, that there ſhould be Deacons to aſſiſt the Biſhop in the work of the Miniſtery.</hi> Thus far <hi>Epiphanius,</hi> whereby it ſeems, that the Orders of Biſhops, Prieſts and Deacons were from the beginning, all inſtituted by the Apoſtles, but not all in all places of the Church; where there were none found fitting to be Biſhops, the places remained without any; yet very unlikely it is that there were none appointed among the Chriſtians in thoſe places to guide their feet in the way of Peace; in all probability therefore the Doctrine of the Church, and the Worſhip of God was taught and upheld by the Miniſtery of Prieſts or Presbyters among them. But in great<g ref="char:EOLhyphen"/>er places, where there was need of Eccleſiaſti<g ref="char:EOLhyphen"/>cal Diſcipline, as well as of Doctrine and Wor<g ref="char:EOLhyphen"/>ſhip, if there were any found fitting to be in<g ref="char:EOLhyphen"/>truſted with it (as doubtleſs there was in moſt, if not all Cities) there were Biſhops conſtitu<g ref="char:EOLhyphen"/>ted: and theſe Biſhops (with the aſſiſtance of Deacons, while the number of Believers was not great in thoſe places, without any intermedi<g ref="char:EOLhyphen"/>ate Presbyters) undertook not only the Regi<g ref="char:EOLhyphen"/>ment of the Church, but the daily performance of all its Offices. Thence no doubt it was that long before <hi>Epiphanius, Clemens Romanus</hi> obſer<g ref="char:EOLhyphen"/>ved,<note place="margin">Ad Cor p. 54.</note> 
+               <hi>That the Apoſtles preaching the Word in Ci<g ref="char:EOLhyphen"/>ties and Countreys conſtituted the Firſt-fruits of their Miniſtery to be Biſhops and Deacons of th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m
+<pb n="12" facs="tcp:99798:10"/>
+that ſhould believe.</hi> It ſeems then the Apoſtles (as <hi>Irenaeus</hi> ſaith) <hi>did deliver their Churches to Biſhops.</hi>
+               <note place="margin">Lib 5. Epiſt. ad Evag.</note> They therefore (as Saint <hi>Hierom</hi> ſaith) <hi>were the Succeſſors of the Apoſtles.</hi> And ſucceed them they did, not only in the government of the Church, but alſo in its daily Miniſtration; thence no doubt it is, that Saint <hi>Paul</hi> requires a <hi>Biſhop ſhould be apt to teach,</hi>
+               <note place="margin">1 Tim 3 2.</note> and gives Biſhop <hi>Timothy</hi> direction about himſelf and his doctrine,<note place="margin">1 Tim 4.16.</note> the worſhip of God,<note place="margin">1 Tim 2.12.</note> and prayers of the Church: Theſe things were looked on as ſo peculiarly the Biſhops duty, as that in the Apoſtles Canons (if they be theirs) the Biſhop <hi>is ſaid to be intruſted with the people of the Lord,</hi>
+               <note place="margin">Can 39.</note> 
+               <hi>and an account of their ſouls ſhall be required from him.</hi> And therefore by another of the ſame Canons, it is provided that the <hi>Biſhop ſhould take the care of the Clergy and people to teach them Piety.</hi>
+               <note place="margin">Can 58.</note> And the Council of <hi>Carthage</hi> decreed,<note place="margin">Can. 122. &amp; 124.</note> 
+               <hi>that the Biſhops ſhould not neg<g ref="char:EOLhyphen"/>lect the people pertaining to them.</hi>
+            </p>
+            <p>If then in thoſe early dayes of the Goſpel, <hi>E<g ref="char:EOLhyphen"/>paphras</hi> were Biſhop of <hi>Coloſſe,</hi> it ſeems that he was not only to govern and exerciſe diſci<g ref="char:EOLhyphen"/>pline, but alſo to perform all other Miniſteri<g ref="char:EOLhyphen"/>al offices among them; and ſo doubtleſs he did while he was preſent with them, but at the Writing of this Epiſtle he was not at home, but with Saint <hi>Paul</hi> at <hi>Rome.</hi> The occaſion of his ſo being it ſeems was thus; there were ſome crept in among the <hi>Coloſſians,</hi> very apt to beguile them
+<pb n="13" facs="tcp:99798:10"/>
+with inticing words, whereby they mixed <hi>Phi<g ref="char:EOLhyphen"/>loſophy</hi> with <hi>Theology,</hi>
+               <note place="margin">Cap 2.</note> and confounded Chriſt with <hi>Moſes,</hi> inſomuch that the Church of <hi>Co<g ref="char:EOLhyphen"/>loſſe</hi> was in great danger of being corrupted from the ſimplicity that is in Chriſt; hereupon their good Biſhop <hi>Epaphras</hi> reſolved upon a voyage to <hi>Rome,</hi> to declare to Saint <hi>Paul</hi> (at that time a priſoner there) the faith and order that he had ſetled among the <hi>Coloſſians,</hi> toge<g ref="char:EOLhyphen"/>ther with the ſentiments of the Innovators; that ſo he might obtain this Epiſtle to confirm the Faith of wavering Chriſtians, and extirpate the ſeeds of Hereſie and Schiſm that were ſown among them. Now during his abſence, it ſeems to me moſt probable, that he had appointed <hi>Ar<g ref="char:EOLhyphen"/>chippus</hi> to be his <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> his Vicar or Vicege<g ref="char:EOLhyphen"/>rent: Not that <hi>Archippus</hi> had Epiſcopal Autho<g ref="char:EOLhyphen"/>rity in its full extent and latitude, but that in <hi>Epaphras</hi> his place and ſtead he was at that time the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> at <hi>Coloſſe,</hi> the Provoſt or Preſident in all their religious Aſſemblies, one that took care of and had the greateſt part to perform in the worſhip of God among them: and this I think was the Miniſtery whereunto he was to take heed, and that is the next thing to be conſi<g ref="char:EOLhyphen"/>dered.</p>
+            <p>The <hi>Greek</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſaith Saint <hi>Chryſoſtom,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> is a word of one that would ſtrike ter<g ref="char:EOLhyphen"/>ror or at leaſt caution into his hearer, as when Saint <hi>Paul</hi> ſaith to the <hi>Philippians,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">Phil. 3.2.</note>
+               <pb n="14" facs="tcp:99798:11"/>
+and to the <hi>Coloſſians,</hi>
+               <note place="margin">Col. 2.8.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and to the <hi>Corinthians</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">1 Cor. 8.9.</note> &amp;c. and thus, ſaith he, the Apoſtle every where ſpeaketh, when he would put men in fear or make them cautious. The duty then that in this ſenſe be requires of <hi>Archippus</hi> is to be ſolicitous and cautious leaſt by any means he ſhould neglect his Miniſtery.</p>
+            <p>That neither the neceſſities of his body, nor the exigences of his family, that neither the eaſe or pleaſure of his fleſh, the pride or elation of his mind, the curioſities of ſcience or delights of humane learning, much leſs ſhould the profits or riches, the pomps and luxuries, the dignities or promotions, or any other cologuing vanities of the world, call him off from his Miniſtery. Not that <hi>Archippus</hi> ſhould weaken his body by neglecting it, or be worſe than an Infidel in not providing for his family; nor need he to think himſelf deſtined to poverty, or doomed to per<g ref="char:EOLhyphen"/>petual melancholy by his office, as if either his Religion or that were a contradiction to Nature, and tyed him up from the regular and ſober enjoyment of Gods bleſſings in the midſt of opportunities of enjoying, as if all that is delightful in this ſtate of imperfection and mortality were by a kind of envy in provi<g ref="char:EOLhyphen"/>dence ſealed up from him under the Character of unlawful, or interdicted with <hi>a touch not, taſt not, handle not.</hi> No ſurely, <hi>Archippus</hi> need
+<pb n="15" facs="tcp:99798:11"/>
+not be ſo nice or ſqueamiſh, but he ſhould know that though <hi>all things are lawful to him, yet all things are not expedient; though all things be law<g ref="char:EOLhyphen"/>ful for him,</hi>
+               <note place="margin">1 Cor. 6.12.</note> 
+               <hi>yet he ſhould not be brought under the power of any.</hi> He ſhould ſo untack his ſoul from matter and ſet his heart ſo looſe from all earthly enjoyments, as that no inordinate appetite might either enſlave him to them or engage him in offenſive or undecent purſuit of them, or divert him from the work of his Miniſtery.</p>
+            <p>And as not the allurements of the world on the one hand, ſo neither the diſcouragements he found on the other ſhould make him neg<g ref="char:EOLhyphen"/>lect his Miniſtery; neither narrowneſs of for<g ref="char:EOLhyphen"/>tune or deſtitution of friends, neither meanneſs of condition or deſpair of amendment in it; no nor yet perſecutions or the juſteſt fear of death itſelf; much leſs might the infidelity of Atheiſts or contradictions of ſinners, the ſlanders and diſhoneſt dealings of ſome, or the perverſe diſpu<g ref="char:EOLhyphen"/>tings of others, neither the artifices of Seducers or the petulance of their followers; no nor yet ſhould lukewarmneſs or coldneſs, heedleſneſs or affected ignorance, or any untoward untractable temper in the <hi>Coloſſians;</hi> no nor yet contempt of his perſon, gifts or office among them, ſhould ever make <hi>Archippus</hi> unmindful of his Miniſte<g ref="char:EOLhyphen"/>ry: But he ſhould ſo buoy up his Spirits and affiance in God, his zeal for him and obligati<g ref="char:EOLhyphen"/>ons unto him, as that with an holy magnani<g ref="char:EOLhyphen"/>mity
+<pb n="16" facs="tcp:99798:12"/>
+and gallantry of mind, he may remove ſome and deſpiſe other diſcouragements in the exerciſe of his Miniſtery. Neither is that all,</p>
+            <p>For certainly this <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> imports in<g ref="char:EOLhyphen"/>ſpection into the Miniſtery and ſerious conſi<g ref="char:EOLhyphen"/>deration of it, ſuch as diſpoſed <hi>Archippus</hi> to fit and prepare himſelf for the fulfilling of it. For <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> denotes ſuch an intention of the mind as caſts, and fixeth the eyes upon their object. Thus the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> is not one that barely ſees,<note place="margin">Mat 5.28.</note> but one that doth behold, conſider, and look upon a Woman with ſome intention and ear<g ref="char:EOLhyphen"/>neſtneſs. And thus when Saint <hi>Paul</hi> ſaid to the <hi>Epheſians,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, his meaning is that they ſhould do their endeavour,<note place="margin">Epheſ. 5.15.</note> and give diligence to walk circumſpectly: Thus alſo here when he ſaith to <hi>Archippus, Take heed, (i.e.)</hi> attend unto and conſider thy Miniſtery, do not ſhut thine eyes upon it or turn them away from it, but look upon it with care and con<g ref="char:EOLhyphen"/>ſideration, give thy mind, and bend thy ſtudy towards it, make it thy buſineſs and the work of thy life.<note place="margin">Vid. Anſel. in loc.</note> If then this be the importance of the word, manifeſt it is, that <hi>Archippus</hi> his duty was <hi>to ſtudy to ſhew himſelf approved unto God, a workman that needed not to be aſhamed, rightly dividing the word of truth.</hi> To this end he was (as <hi>Timothy) to give attendance to reading,</hi>
+               <note place="margin">2 Tim. 2.15. 1 Tim 4.13.</note> not only in publick that others might hear the Scrip<g ref="char:EOLhyphen"/>ptures, but alſo in private, that he himſelf be<g ref="char:EOLhyphen"/>ing learned in them, might be an able Miniſter
+<pb n="17" facs="tcp:99798:12"/>
+of the <hi>New Teſtament,</hi> not of the Letter but of the Spirit. To this end alſo, he was to medi<g ref="char:EOLhyphen"/>tate on the things he read, to give himſelf wholly to them, that his profiting might appear unto all. And all but need,</p>
+            <p>For <hi>Archippus</hi> was ſo to take heed to the Mi<g ref="char:EOLhyphen"/>niſtery, as that he might <hi>fulfil it.</hi> That's the end of his caution, and the deſign of his re<g ref="char:EOLhyphen"/>quired care. Not that he might get or keep a Living, gather applauſe, or uphold a reputati<g ref="char:EOLhyphen"/>on by it, but that he might <hi>fulfil it. (i. e.)</hi> That he might perform all the parts of his Office in a due manner, or that he might rightly do all thoſe things, which by vertue of his Miniſtery were incumbent on him. To diſcover what thoſe were, I thought here to have ſhewed, that thoſe duties which the Church of <hi>England</hi> now requires of us, were by thoſe days requi<g ref="char:EOLhyphen"/>red of the Primitive Presbyters; and if ſo, then <hi>Archippus</hi> his duty was (not as the Popiſh Prieſts to offer propitiatory Sacrifices for the quick and the dead) but to read the holy Scriptures, and the Prayers of the Church according to the cuſtom or appointment of it; to Preach the Word, and to Catechiſe; to adminiſter the Sa<g ref="char:EOLhyphen"/>craments, both of Baptiſm and the Lords-Sup<g ref="char:EOLhyphen"/>per; and (as occaſion required) to inſtruct the ignorant, and reprove the wicked, to viſit the ſick, and abſolve the penitent, to conferre with Recuſants, and reclaim them (if he could) from
+<pb n="18" facs="tcp:99798:13"/>
+their Errors. But it being needleſs and too large to ſpeak of theſe things diſtinctly, I ſhall wave them, and onely obſerve, that <hi>Archippus</hi> could not ſo take heed to his Miniſtery as to fulfill it, unleſs he did perform them all in a due manner; for very manifeſt it is, it was poſſi<g ref="char:EOLhyphen"/>ble for him ſo ſuperficially and ſlightly, ſo ir<g ref="char:EOLhyphen"/>reverently and careleſly to have done them, as that every eye might have ſeen that he took but little or no heed unto them. He could not therefore be ſaid to take heed to his Miniſte<g ref="char:EOLhyphen"/>ry, that he might <hi>fulfill it,</hi> unleſs he did per<g ref="char:EOLhyphen"/>form the ſeveral parts and duties of it, as they ought to be performed: not that <hi>Archippus</hi> was to ſtudy how to ſpeak with the enticing words of mans Wiſdom, that he might have praiſe from men; but that he was in the exerciſe of his Miniſtery to keep a Conſcience void of offence both towards God, and towards all men; and in order hereunto it was neceſſary for him to be faithfull, holy, and conſtant therein.</p>
+            <p>
+               <note place="margin">1 Cor. 4.1, 2.</note>
+               <hi>Archippus</hi> was a Miniſter of Chriſt, <hi>A Stew<g ref="char:EOLhyphen"/>ard of the Myſteries of God; moreover it is re<g ref="char:EOLhyphen"/>quired in Stewards that a man be found faithful;</hi> faithful to his Lord, and Faithful to his fellow-ſervants, and therefore <hi>Archippus</hi> was to do the work of his Miniſtery, not for fear of men or love of filthy lucre, but out of Conſcience to<g ref="char:EOLhyphen"/>wards God, in ſingleneſs of Heart as unto the
+<pb n="19" facs="tcp:99798:13"/>
+Lord, and not unto men: for without this ſingleneſs towards Chriſt, he would hardly be found ſo faithful unto men, as to give unto every one his portion; Doctrine to whom Do<g ref="char:EOLhyphen"/>ctrine, Comfort to whom Comfort, Reproof to whom Reproof, Correction to whom Correcti<g ref="char:EOLhyphen"/>on, Inſtruction to whom Inſtruction was due, according to the will and commandment of his Lord and Maſter.</p>
+            <p>Nor was it poſſible for him to take due heed unto his Miniſtery, without endeavours to fulfill it in his life as well as in the exer<g ref="char:EOLhyphen"/>ciſe of his Function. The ſcope and deſign of his Miniſtery (we know) was to teach and di<g ref="char:EOLhyphen"/>ſpenſe the Goſpel: and what, I pray, is the Go<g ref="char:EOLhyphen"/>ſpel? is it a piece of Book-learning that floats in the Brain like empty froth or bubbles in the Sea? no ſurely there is more in it than ſo; <hi>For the Lord preparing us for a life to come af<g ref="char:EOLhyphen"/>ter the Reſurrection, propoſeth to us the whole E<g ref="char:EOLhyphen"/>vangelical Converſation,</hi> i. e. <hi>not to be angry or im<g ref="char:EOLhyphen"/>patient, to be undefiled from the love of pleaſure, and unſpotted from the World:</hi> But this is a kind of Negative Righteouſneſs, more fit for a Pha<g ref="char:EOLhyphen"/>riſee than a Chriſtian: know therefore <hi>that thoſe things which are in that life by the neceſſity of its Nature, the Lord preſcribes to be done in this by the freedom of our choice: ſo that if any one de<g ref="char:EOLhyphen"/>fining the Goſpel ſhould ſay, It is the form or pat<g ref="char:EOLhyphen"/>tern of the life to come after the Reſurrection, he
+<pb n="20" facs="tcp:99798:14"/>
+ſeems not to me to have miſſed the Mark,</hi> ſaith Saint <hi>Baſil:</hi>
+               <note place="margin">Deſpir. ſanc. Cap. 15.</note> But what life is that that is to come after the Reſurrection? why <hi>it doth not yet appear what we ſhall be,</hi>
+               <note place="margin">1 Iohn 3.2.</note> 
+               <hi>but we know that when he ſhall appear we ſhall be like him.</hi> The end therefore and the ſcope of the Miniſtery is to impregnate mens Souls with ſuch a Religion, as ſpringing and flouriſhing from due Piety towards God,<note place="margin">Vid. Hieron. Oſor. de Reg. Inſtit. lib. 6.</note> cauſeth an ardent love and imi<g ref="char:EOLhyphen"/>tation of the Eternal Beauty. <hi>Archippus</hi> there<g ref="char:EOLhyphen"/>fore muſt be transformed by the renewing of his mind, and the holineſs of his life, other<g ref="char:EOLhyphen"/>wiſe he cannot ſo take heed to his Miniſtery, as to be accepted with God, or ſo fulfill it as to be believed among men. The fruit of the Lips without holineſs of Life, God will not accept; and a Proteſtation palpably againſt A<g ref="char:EOLhyphen"/>ction men will not believe. It ſeems therefore that holineſs of Life is a Duty, not onely of Chriſtianity in general, but the Miniſtery in par<g ref="char:EOLhyphen"/>ticular. Holineſs of living, and probity of man<g ref="char:EOLhyphen"/>ners conciliate Authority, and facilitate belief: but moral Vice and Wickedneſs abates the one, and obſtructs the other by drawing con<g ref="char:EOLhyphen"/>tempt upon the Miniſtery it ſelf. Thence was it that the Apoſtles <hi>gave no offence in any thing, that the Miniſtery ſhould not be blamed:</hi> whereby 'tis plain,<note place="margin">2 Cor. 5.8.</note> that the Miniſtery is apt to ſuffer by the bad <hi>Ethicks</hi> of its Defendants, as well as by the <hi>Logick</hi> of its Opponents, and perhaps more by them than by the beſt of that. It is
+<pb n="21" facs="tcp:99798:14"/>
+indeed unreaſonable to take the dirt of mens manners, and throw it in the face of the Mi<g ref="char:EOLhyphen"/>niſtery: but thoſe that are ignorant cannot, and thoſe that are malicious will not diſtinguiſh between the faults of a mans perſon and his Function. It was therefore <hi>Archippus</hi> his duty as well as <hi>Timothy</hi>'s, <hi>To be an example of Believers in word, converſation and charity; in ſpirit,</hi>
+               <note place="margin">1 Tim 4.14.</note> 
+               <hi>faith and purity.</hi> Thus ſhould he adorn his Profeſſion, and give acceſs unto the work of his Miniſtery.</p>
+            <p>Wherein alſo he ought to continue and be conſtant: as long as he had it to do, and health and ſtrength to perform it, he could hardly with a good Conſcience retire to a private life, and ceaſe from it: he was <hi>to take heed to him<g ref="char:EOLhyphen"/>ſelf and to his Doctrine,</hi> not that he might ſave his Labour or his Lungs, but that he might hoth live and ſpeak thoſe things which be<g ref="char:EOLhyphen"/>come ſound Doctrine, ſhewing himſelf a <hi>pattern of good works</hi> in his life, and <hi>of uncorruptneſs,</hi>
+               <note place="margin">Tit. 2.7.</note> 
+               <hi>gravity, and ſincerity</hi> in his Doctrine. And this he was to do not only on ſome certain dayes and times of the year, but continually; for he was <hi>to continue in them, that he might ſave both himſelf and them that heard him:</hi>
+               <note place="margin">1 Tim. 4 16.</note> whereby 'tis plain, that unleſs <hi>Archippus</hi> did continue in his Miniſtery, he had little reaſon to hope that he ſhould ſave either himſelf or his Hearers. He was therefore conſtantly to take heed to his Miniſtery that he might fulfil it: and good
+<pb n="22" facs="tcp:99798:15"/>
+reaſon too. And thus am I fallen on the laſt thing in my Text, <hi>viz.</hi>
+            </p>
+            <p>The reaſon of <hi>Archippus</hi> his Duty, or his Ob<g ref="char:EOLhyphen"/>ligations to perform it, contained in theſe words, <hi>Which thou haſt received in the Lord.</hi>
+            </p>
+            <p>
+               <hi>Archippus</hi> was none of the gifted Brethren, that becauſe they can talk fluently myſterious non-ſenſe in Scripture-language wreſted, do take upon them the work of the Miniſtery: but he received it, 'twas one of the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or gra<g ref="char:EOLhyphen"/>cious gifts of the holy Ghoſt, which by his Or<g ref="char:EOLhyphen"/>dination was conferred upon him, and there<g ref="char:EOLhyphen"/>fore let him take heed unto it: <hi>for the mani<g ref="char:EOLhyphen"/>feſtation of the Spirit is given to every man to profit withall;</hi>
+               <note place="margin">1 Cor. 12.7.</note> not to promote vain-glory, or fo<g ref="char:EOLhyphen"/>ment Factions, but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, to the com<g ref="char:EOLhyphen"/>mon good and benefit both of the Receiver and of the whole Community wherein he recei<g ref="char:EOLhyphen"/>ved it, or is obliged to uſe it. This Talent therefore <hi>Archippus</hi> muſt not hide in a Napkin, but take heed unto it, to uſe and imploy it: for to this he had received it: And that</p>
+            <p>
+               <hi>In the Lord,</hi> (i. e.) <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſaith Saint <hi>Chryſo<g ref="char:EOLhyphen"/>ſtom, in his quae Domini ſunt,</hi> ſaith Saint <hi>An<g ref="char:EOLhyphen"/>ſelm, ſecundum praecepta Domini,</hi> ſaith <hi>Grotius.</hi> For my part I ſhall not undertake to umpire be<g ref="char:EOLhyphen"/>tween them, but only to obſerve that this Par<g ref="char:EOLhyphen"/>ticle of my Text may admit a threefold refe<g ref="char:EOLhyphen"/>rence,
+<pb n="23" facs="tcp:99798:15"/>
+               <hi>viz.</hi> either to <hi>Archippus</hi> his Miniſtery, or to his reception of it; or to his duty to take heed unto it; in the firſt, Saint <hi>Anſelms,</hi> in the ſecond, Saint <hi>Chryſoſtoms,</hi> in the third, <hi>Grotius,</hi> his interpretation his very true and genuine.</p>
+            <p>In reference to <hi>Archippus</hi> his Miniſtery, this <hi>in the Lord,</hi> will certainly be moſt naturally ren<g ref="char:EOLhyphen"/>dred <hi>in the things of the Lord,</hi> or <hi>in rebus divinis,</hi> as <hi>Lyra</hi> notes. For evident it is, that <hi>Archippus</hi> was no Miniſter of State, nor was his Miniſte<g ref="char:EOLhyphen"/>ry converſant about the pomps and Pageants, the glozing grandeur and vanities of the World, the luſts and luxuries of the fleſh, or the baſe and low things of the earth; but the infinite<g ref="char:EOLhyphen"/>ly more weighty and noble affairs of the king<g ref="char:EOLhyphen"/>dom of Heaven, thoſe things wherein the glory of God, the honour of the Lord, and the eter<g ref="char:EOLhyphen"/>nal welfare of immortal ſouls are chiefly con<g ref="char:EOLhyphen"/>cerned did eſpecially fall within the compaſs of his Miniſtery, and therefore let <hi>Archippus</hi> take heed unto it. What care and caution, what diligence and circumſpection, what ſtudy and fidelity can be too much, or indeed enough in matters of ſo high a nature? <hi>Who is ſufficient for theſe things?</hi>
+            </p>
+            <p>But again, this Particle <hi>in the Lord</hi> may be conſidered as it lies in my Text, <hi>viz.</hi> in refe<g ref="char:EOLhyphen"/>rence to <hi>Archippus</hi> his reception of his Miniſte<g ref="char:EOLhyphen"/>ry, and then Saint <hi>Chryſoſtomes by the Lord,</hi> will
+<pb n="24" facs="tcp:99798:16"/>
+be the fitteſt interpretation of it; <hi>becauſe</hi> (as he ſaith) <hi>it was not the</hi> Coloſſians, <hi>but Chriſt that gave it him, it was not they, but God that com<g ref="char:EOLhyphen"/>mitted it to him.</hi> Not that <hi>Archippus</hi> received his Miniſtery (as Saint <hi>Paul did his</hi>) by imme<g ref="char:EOLhyphen"/>diate revelation; but that his Office was of di<g ref="char:EOLhyphen"/>vine Inſtitution, it derived its authority from God, and <hi>Archippus</hi> was put into it by the diſpoſition of his Laws; he therein therefore was the Miniſter of God or Servant of the Lord, ſet about his work, <hi>and curſed</hi> (you know) <hi>is he that doth the work of the Lord negligently. Archippus</hi> therefore was highly concerned to take heed to his Miniſtery, and very unworthy if he did not; for having received it by or from the Lord, he thereby became an <hi>Ambaſſadour for Chriſt.</hi>
+               <note place="margin">2 Cor. 5 20.</note> He was thereby ſent to eſpouſe his intereſt, and aſſert his right, to negotiate his affairs and promote his honour in the world, by bringing himſelf and others <hi>to a perfect man, unto the meaſure of the ſtature of the fulneſs of Chriſt,</hi>
+               <note place="margin">Eph 5.13.</note> (i. e.) to ſuch a ſtate as that they may be full of Chriſt, his knowledge and holineſs, his grace and good<g ref="char:EOLhyphen"/>neſs; an employ that's worthy of Angels and the Spirits of juſt men made perfect! but <hi>we have the treaſure in earthen veſſels, that the Excel<g ref="char:EOLhyphen"/>lency of the power may be of God, and not of us.</hi> Yet it reflects a very great and tranſcendent honour upon us. How vile and baſe, how diſ-ingenuous and unworthy would <hi>Archippus</hi> be, if he ſhould neglect it? therefore alſo let him take heed unto it. For,</p>
+            <p>
+               <pb n="25" facs="tcp:99798:16"/>He received it that he might <hi>fulfil it in the Lord. Grotius</hi> obſerves an <hi>Hebraiſme</hi> in the Text, <hi>Take heed to the Miniſtery which thou haſt received in the Lord, that thou fulfil it.</hi> (i. e.) ſaith he, <hi>Take heed that thou fulfil in the Lord the Miniſtery which thou haſt received.</hi> This particle therefore he referrs to <hi>Archippus</hi> his duty, and ſo renders the ſenſe of it <hi>ſecundum praecepta Domi<g ref="char:EOLhyphen"/>ni,</hi> Take heed, that thou fulfil thy Miniſtery according to the Commands of the Lord. When the Lord aſcended up on high, he gave gifts unto men. Now theſe gifts,<note place="margin">1 Cor. 21, 5, 6.</note> whether of <hi>operation</hi> or <hi>administration</hi> (as Saint <hi>Paul</hi> diſtinguiſhes) ought to be imployed and improved to the be<g ref="char:EOLhyphen"/>nefit of thoſe for whom they were given, and the glory of him that gave them. <hi>Archippus</hi> his Mi<g ref="char:EOLhyphen"/>niſtery was therefore a Talent wherewith the Lord had entruſted him, expecting that he ſhould im<g ref="char:EOLhyphen"/>prove it, and at length he would reckon with him about it. If at that <hi>Audit</hi> it be found that <hi>Ar<g ref="char:EOLhyphen"/>chippus</hi> hath rightly took heed unto it, that he might fulfil it, then ſhall he have the honour and happi<g ref="char:EOLhyphen"/>neſs to be called good and faithful Servant, and to enter into the joy of the Lord. But if it be found, that he was ſo negligent and lazy, as to bury it in the earth (deſigning to gain nothing but earthly enjoyments by it) whatever the ſucceſs was in that deſign, it will not plead his cauſe in the Court of Heaven, or ſave him from impeachment for ſloth and wickedneſs; whereof being found guil<g ref="char:EOLhyphen"/>ty, he ſhall be condemned out of his own mouth,
+<pb n="26" facs="tcp:99798:17"/>
+ſhamefully deprived of his Talent, eternally de<g ref="char:EOLhyphen"/>poſed from his Miniſtery and caſt into outer dark<g ref="char:EOLhyphen"/>neſs, there ſhall be weeping and gnaſhing of teeth. If <hi>Archippus</hi> conſiders theſe things, me<g ref="char:EOLhyphen"/>thinks either the love of God, or the joy of his Lord ſhould conſtrain him, or elſe his terror per<g ref="char:EOLhyphen"/>ſwade him to take heed to his Miniſtery that he fulfil it.</p>
+            <p>And theſe things Brethren I have (as it were in a Figure) transferred unto you and my ſelf, that we might learn or at leaſt be put in mind, not ſo much what was <hi>Archippus</hi> his duty, as what is ours. Which God of his mercy grant us all wiſdom, and grace to perform, and ſo pour upon us the dew of his bleſſing, as that we may both ſave ourſelves and them that hear us; through Jeſus Chriſt our Lord, to whom with the Father and the Holy Ghoſt, be all honour, glory and praiſe world with<g ref="char:EOLhyphen"/>out end. <hi>Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:99798:17"/>
+            <list>
+               <head>BOOKS Printed for <hi>William Crook</hi> at the <hi>Green Dragon</hi> without <hi>Temple-Bar.</hi>
+               </head>
+               <item>I. <hi>THe Compleat Vineyard,</hi> or an excellent way for Planting of Vines in <hi>England;</hi> and how to make Wine of their Grapes. By <hi>W. Hughs,</hi> price 2 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>II. <hi>The Compleat Meaſurer,</hi> or a new exact Way of Menſuration. By <hi>Tho. Hammond,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>III. <hi>Jeſuits Morals. Folio,</hi> price 10 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>IV <hi>Bacon's Natural Hiſtory. Folio,</hi> price 8 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>V. <hi>Boccalins Parnaſſus. Folio,</hi> price 8 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>VI. <hi>Clarks Paxis Curiae Admiralitatis. Octavo,</hi> price 2 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>VII. <hi>A Deſcription of Candia,</hi> with an account of the Siege and Surrender of it, <hi>Octavo,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>VIII. <hi>The Deaf and Dumb Mans diſcourſe,</hi> A Trea<g ref="char:EOLhyphen"/>tiſe of thoſe born Deaf and Dumb; to which is added the Rationality of Beaſts, and particu<g ref="char:EOLhyphen"/>larly of the <hi>Elephant,</hi> ſhewing the wonderful underſtanding of that Creature. <hi>Oct.</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>IX. <hi>The Life of Des Chartes. Octavo,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>X. <hi>Fleckno</hi>'s Epigrams of all ſorts. <hi>Oct.</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>XI. <hi>Thomas à Kempis Chriſtian Pattern,</hi> Engliſh, Twenty fours, price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>XII. <hi>Knowles</hi> Anſwer to <hi>Fargeſon</hi> of Juſtification, price, 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr> 6 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>XIII. <hi>Blunts Academy of Eloquence, Twelves,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr> 6 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>XIV. <hi>Hobbs three Papers to the Royal Society, Quarto.</hi>
+               </item>
+               <item>XV. Sir <hi>H. Blunts Voyage into the Levant. Twelves,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>XVI. <hi>Hobbs Roſetum Geometricum. Quarto,</hi> price 3 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>XVII. <hi>Sinners Tears,</hi> by <hi>Fettyplace. Twelves,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>
+                  <pb facs="tcp:99798:18"/>18. <hi>Drexilius of Eternity. Twelves,</hi> price 2 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>19. <hi>Greek Teſtament. Octavo,</hi> price 3 <abbr>
+                     <hi>s.</hi>
+                  </abbr> 6 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>20. <hi>Articles of Viſitation for</hi> Norwich, price 2 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>21. <hi>The Flower Garden,</hi> ſhewing how all ſorts of Flowers are to be ordered; the time of Flower<g ref="char:EOLhyphen"/>ing, the taking them up, and of Planting them again, <hi>&amp;c.</hi> Being all neceſſary obſervations re<g ref="char:EOLhyphen"/>lating to a Flower Garden, by the diligence and experience of <hi>W. Hughes, Twelves,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>22. <hi>Biſhop Arbets Elegant Poems. Twelves,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>23. <hi>The Court of Curioſity;</hi> being the moſt Witty and Facetious <hi>Fortune Book</hi> that was ever pub<g ref="char:EOLhyphen"/>liſhed in <hi>Engliſh,</hi> with a moſt judicious Interpre<g ref="char:EOLhyphen"/>tation of all <hi>Dreams</hi> drawn from the Wiſdom and Doctrine of the Antients; alſo a Treatiſe of <hi>Phy<g ref="char:EOLhyphen"/>ſiognomy.</hi> All written in <hi>French,</hi> ſince Tranſlated (for the excellency of it into <hi>Spaniſh, Italian, High-Dutch, Low-Dutch, &amp;c.</hi> now out of <hi>French</hi>) in<g ref="char:EOLhyphen"/>to <hi>Engliſh.</hi> The ſecond Edition, much improved and explained. In <hi>Twelves,</hi> price 2 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>24. <hi>The White Devil,</hi> or, <hi>Vittoria Corumbona,</hi> A Tragedy Acted at the <hi>Theatre Royal. Quarto,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>25. <hi>The old Troop;</hi> or, <hi>Monſieur Raggou,</hi> A Comedy Acted at the <hi>Theatre Royal. Quarto,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>26. <hi>Catalines Conſpiracy,</hi> A Tragedy Acted at the <hi>Theatre Royal.</hi> Written by <hi>Ben. Johnſon. Quarto,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>27. <hi>Lux Mathematica. Quarto,</hi> price 5 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>28. <hi>Hobbs his Travels. Twelves,</hi> price. 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>29. <hi>Principia &amp; problemata aliquot Geometrica, antè deſperata, nunc breviter explicata &amp; demonſtrata. Autho. Th. Hobbs. Quarto,</hi> price 2 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>
+                  <pb facs="tcp:99798:18"/>30. <hi>The American Phyſitian,</hi> ſhewing all the Ver<g ref="char:EOLhyphen"/>tues and Uſes of all <hi>Roots, Herbs, Trees, Fruits &amp;c.</hi> in the <hi>Engliſh</hi> Plantation in <hi>America.</hi> By <hi>W Hughes. Twelves,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>31. <hi>Shafto's Great Law of Nature, of Self-preſervati<g ref="char:EOLhyphen"/>on.</hi> Examined and Vindicated againſt the Abu<g ref="char:EOLhyphen"/>ſes in Mr. <hi>Hobbs his Leviathan. Twelves,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>32. <hi>Calliopes Cabinet opened and reviewed.</hi> Wherein all Gentlewomen of what quality ſoever, may know how to adorn themſelves for Feaſting, Funerals, <hi>&amp;c.</hi> With a <hi>Dictionary</hi> to explain all the <hi>Terms in Heraldry.</hi> By <hi>J. Salter,</hi> price 8 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>33. <hi>A Collection of new Songs and Poems.</hi> Written by the preſent Wits of this Age. <hi>Octavo,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr> 6 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>34. <hi>A Diſcourſe of the Dukedom of</hi> Modena, <hi>the Native Countrey of her Royal Highneſs, the Dutcheſs of</hi> York. <hi>Quarto,</hi> price 6 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>35. <hi>Brevis Demonſtratio.</hi> The truth and excellen<g ref="char:EOLhyphen"/>cy of the Chriſtian Religion demonſtrated by <hi>Reaſon.</hi> The ſecond Edition. <hi>Twelves,</hi> price 10<abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>36. <hi>The Memoires and rare Adventures of</hi> Henrietta Sylvia Muliers. Tranſlated out of <hi>French. Twelves,</hi> price 2 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>37. <hi>Waltons Lives.</hi> Of Dr. <hi>Donn,</hi> Sir <hi>Henry Wot<g ref="char:EOLhyphen"/>ton,</hi> Mr. <hi>Hooker,</hi> &amp; Mr. <hi>Herbert. Octavo,</hi> price 3 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>38. <hi>The Primitive Inſtitution,</hi> ſhewing the uſe and antiquity of Catechiſing. By <hi>L. Addiſon,</hi> D. D. <hi>Twelves,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr> 6 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>39. <hi>Nomenclatura. Octav.</hi> Greek, Latine, and En<g ref="char:EOLhyphen"/>gliſh, price 10 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>40. <hi>Oglebies Virgil. Octavo,</hi> with Cuts, price 9 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+            </list>
+            <list>
+               <pb facs="tcp:99798:19"/>
+               <head>Theſe New BOOKS Printed for <hi>William Crook,</hi> in the Year 1675.</head>
+               <item>1. <hi>HOmers Odyſſes</hi> Tranſlated into <hi>Engliſh</hi> by <hi>T. Hobbs</hi> of <hi>Malmsbury.</hi> With a large <hi>Preface,</hi> concerning the <hi>Vertues of Heroick Poetry.</hi> price 4 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>2. <hi>The Juriſdiction of Court Leets, and Court Barons, Marſhalſey, Pypowder, &amp;c.</hi> and all other Courts; to which is added Choice Writs. By <hi>R. A.</hi> and <hi>T.J.</hi> price 6 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>3. The Third Volume of Mr. <hi>Hobbs</hi> his Works, in <hi>Quarto,</hi> price 10 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>4. <hi>The Golden Rule of Arithmetick made eaſie.</hi> By <hi>C. H.</hi> price 3 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>5. <hi>De Mirabilibus Pecci, Carmen.</hi> By <hi>Tho. Hobbs,</hi> price 6 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>6. <hi>Euterpe Revived;</hi> being <hi>Epigrams</hi> on the moſt eminent perſons now living, price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>7. <hi>Amorous Gallant,</hi> or, <hi>Love in Faſhion.</hi> A Come<g ref="char:EOLhyphen"/>dy in Heroick Verſe. By <hi>J.B.</hi> Gent. price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>8. <hi>The Mock Duelliſt,</hi> or <hi>The French Vallet.</hi> A Co<g ref="char:EOLhyphen"/>medy Acted at the <hi>Theatre Royal. Quarto,</hi> price 1 <abbr>
+                     <hi>s.</hi>
+                  </abbr>
+               </item>
+               <item>9. <hi>The Grounds of Soveraignty and Greatneſs.</hi> In <hi>Quarto,</hi> price 6 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+               </item>
+               <item>10. <hi>Gees Steps of Aſcenſion unto God,</hi> or, <hi>A Ladder to Heaven.</hi> Twenty fours.</item>
+            </list>
+            <list>
+               <pb facs="tcp:99798:19"/>
+               <head>BOOKS Printing and Printed for <hi>William Crook,</hi> for the Year 1676.</head>
+               <item>1. <hi>HOmers Iliads,</hi> Tranſlated out of <hi>Greek</hi> into <hi>Engliſh,</hi> by <hi>Tho. Hobbs</hi> of <hi>Malmsbury.</hi>
+               </item>
+               <item>2. <hi>The preſent ſtate of the Jews, relating all their Cu<g ref="char:EOLhyphen"/>ſtoms and Practiſes now in uſe.</hi> The ſecond Editi<g ref="char:EOLhyphen"/>on. By <hi>L. Addiſon,</hi> D.D. <hi>Twelves.</hi>
+               </item>
+               <item>3. <hi>Camera Regis,</hi> A ſhort view of <hi>London,</hi> contain<g ref="char:EOLhyphen"/>ing the <hi>Antiquity, Fame, Wall, River, Gates, Tow<g ref="char:EOLhyphen"/>er, Cathedral, Officers, Courts, Cuſtoms, Franchi<g ref="char:EOLhyphen"/>ſes,</hi> of that City. <hi>Octavo.</hi>
+               </item>
+               <item>4 The Potable <hi>Balſam of Life,</hi> deſcribed by Dr. <hi>P. Belon.</hi>
+               </item>
+               <item>5. <hi>The Hiſtorians Guide</hi> in two Parts. <hi>Firſt</hi> the Re<g ref="char:EOLhyphen"/>covery of loſt Time, <hi>a Chronology of the World,</hi> Tranſlated out of <hi>Italian. The Second, Englands</hi> Remembrancer, being an Account of all Emi<g ref="char:EOLhyphen"/>nent Actions from 1600 to 1675. done in <hi>En<g ref="char:EOLhyphen"/>gland. Octavo.</hi>
+               </item>
+            </list>
+         </div>
+      </back>
+   </text>
+</TEI>
